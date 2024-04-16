@@ -39,7 +39,7 @@ namespace ArtistHelper
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
                 pictureBox1.Load(openFileDialog1.FileName);
-                // Add string URL = pictureBox1.Load()
+                // Add string URL = pictureBox1.Load() later
 
         }
 
