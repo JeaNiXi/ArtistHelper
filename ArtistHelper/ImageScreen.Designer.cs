@@ -62,7 +62,7 @@
             this.mainLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 86F));
             this.mainLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7F));
             this.mainLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7F));
-            this.mainLayoutPanel.Size = new System.Drawing.Size(424, 541);
+            this.mainLayoutPanel.Size = new System.Drawing.Size(430, 580);
             this.mainLayoutPanel.TabIndex = 0;
             // 
             // mainPictureBox
@@ -71,7 +71,7 @@
             this.mainPictureBox.InitialImage = null;
             this.mainPictureBox.Location = new System.Drawing.Point(3, 3);
             this.mainPictureBox.Name = "mainPictureBox";
-            this.mainPictureBox.Size = new System.Drawing.Size(418, 459);
+            this.mainPictureBox.Size = new System.Drawing.Size(424, 492);
             this.mainPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.mainPictureBox.TabIndex = 0;
             this.mainPictureBox.TabStop = false;
@@ -85,9 +85,9 @@
             this.buttonFlowLayoutPanel.Controls.Add(this.doneText);
             this.buttonFlowLayoutPanel.Controls.Add(this.countLabel);
             this.buttonFlowLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonFlowLayoutPanel.Location = new System.Drawing.Point(3, 468);
+            this.buttonFlowLayoutPanel.Location = new System.Drawing.Point(3, 501);
             this.buttonFlowLayoutPanel.Name = "buttonFlowLayoutPanel";
-            this.buttonFlowLayoutPanel.Size = new System.Drawing.Size(418, 31);
+            this.buttonFlowLayoutPanel.Size = new System.Drawing.Size(424, 34);
             this.buttonFlowLayoutPanel.TabIndex = 3;
             // 
             // buttonOpenFolder
@@ -157,9 +157,9 @@
             // 
             this.infoFlowLayoutPanel.Controls.Add(this.textBox1);
             this.infoFlowLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.infoFlowLayoutPanel.Location = new System.Drawing.Point(3, 505);
+            this.infoFlowLayoutPanel.Location = new System.Drawing.Point(3, 541);
             this.infoFlowLayoutPanel.Name = "infoFlowLayoutPanel";
-            this.infoFlowLayoutPanel.Size = new System.Drawing.Size(418, 33);
+            this.infoFlowLayoutPanel.Size = new System.Drawing.Size(424, 36);
             this.infoFlowLayoutPanel.TabIndex = 4;
             // 
             // textBox1
@@ -180,7 +180,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(424, 541);
+            this.ClientSize = new System.Drawing.Size(430, 580);
             this.Controls.Add(this.mainLayoutPanel);
             this.MinimumSize = new System.Drawing.Size(430, 580);
             this.Name = "ImageScreen";

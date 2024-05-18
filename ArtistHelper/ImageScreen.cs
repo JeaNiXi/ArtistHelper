@@ -86,6 +86,13 @@ namespace ArtistHelper
         #region SessionManagement
         private void StartSession(int time)
         {
+            var text = "";
+            for (int i = 0; i<sessionList.Count;i++)
+            {
+                text+= sessionList[i].ToString();
+                text += " ";
+            }
+            SetText(text);
             CurrentSessionStatus = SessionStatus.ENABLED;
             SetSessionTime(time);
             SetTimer(time);
@@ -155,8 +162,7 @@ namespace ArtistHelper
         private void ShuffleSessionList<T>(List<T> sessionList)
         {
             Random randomNumber = new Random();
-            int n = sessionList.Count;
-            for(int i = sessionList.Count-1; i>1; i--)
+            for(int i = sessionList.Count-1; i>0; i--)
             {
                 int rnd = randomNumber.Next(i + 1);
 
